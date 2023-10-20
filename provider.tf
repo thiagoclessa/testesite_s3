@@ -3,7 +3,6 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Environment = local.config.distribution_name
       ManagedBy   = "VeecodePlatform"
     }
   }
